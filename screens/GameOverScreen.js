@@ -1,10 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View,Image } from 'react-native'
 import React from 'react'
+import Title from '../components/ui/Title'
 
 const GameOverScreen = () => {
   return (
     <View>
-      <Text>Game Over!</Text>
+      <Title>GAME OVER!</Title>
+      <Image  />
     </View>
   )
 }
